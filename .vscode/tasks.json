@@ -5,16 +5,16 @@
           "label": "run-java",
           "type": "shell",
           "command": "cmd.exe",
-          "args": ["/c", "javac Basics.java && java Basics < input.txt > output.txt"],
+          "args": ["/c", "javac NestedIf.java && java NestedIf < input.txt > output.txt"],
           "group": {
               "kind": "build",
               "isDefault": true
           },
           "options": {
-              "cwd": "C:/Studio Projects/tuf_dsa_series/basics_java"   // Set your working directory here
+              "cwd": "C:/Studio Projects/tuf_dsa_series/Basics_java"   // Set your working directory here
           },
           "problemMatcher": [],
-          "detail": "Compiles and runs Basics.java with input redirection from input.txt and output redirection to output.txt"
+          "detail": "Compiles and runs NestedIf.java with input redirection from input.txt and output redirection to output.txt"
       }
   ]
 }
