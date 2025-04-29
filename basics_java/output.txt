@@ -1,4 +1,16 @@
-999
-999
-444
-Two or more integers are equal and the largest are999
+1
+2
+4
+65
+8
+The sum of the input is 80
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5

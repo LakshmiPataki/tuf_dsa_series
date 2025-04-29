@@ -5,7 +5,7 @@
           "label": "run-java",
           "type": "shell",
           "command": "cmd.exe",
-          "args": ["/c", "javac NestedIf.java && java NestedIf < input.txt > output.txt"],
+          "args": ["/c", "javac LoopsAndArray.java && java LoopsAndArray < input.txt > output.txt"],
           "group": {
               "kind": "build",
               "isDefault": true
@@ -14,7 +14,7 @@
               "cwd": "C:/Studio Projects/tuf_dsa_series/Basics_java"   // Set your working directory here
           },
           "problemMatcher": [],
-          "detail": "Compiles and runs NestedIf.java with input redirection from input.txt and output redirection to output.txt"
+          "detail": "Compiles and runs LoopsAndArray.java with input redirection from input.txt and output redirection to output.txt"
       }
   ]
 }
